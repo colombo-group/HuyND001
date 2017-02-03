@@ -9,7 +9,7 @@ body{
 }
 .header .sologan{
 	float: left;
-	margin-left: 40px;
+	margin-left: 8px;
 	margin-top: 40px;
 	}
 .sologan1{
@@ -22,7 +22,7 @@ body{
 }
 .header .menu-header{
 	float: left;
-	margin-left: 40px;
+	margin-left: 140px;
 	margin-top: 20px;
 }
 
@@ -88,8 +88,8 @@ body{
 	cursor: pointer;
 	border: 2px solid black;
 	background: white;
-	width: 10px;
-	height: 10px;
+	width: 6px;
+	height: 6px;
 }
 .our-service{
 	margin-top: 50px;
@@ -111,7 +111,7 @@ body{
 	padding-left: 40px;
 }
 .our-service-content ul li{
-	width: 300px;
+	width: 330px;
 	list-style: none;
 	display: inline-block;
 	margin-top: 40px;
@@ -143,12 +143,16 @@ body{
 .our-play-content{
 	margin-top: 50px;
 }
+.our-play-content ul{
+	margin-left:-30px !important;
+}
 .our-play-content ul li{
-	width: 180px;
+	width: 190px;
 	margin: 0px;
+	margin-left: 3px;
 }
 .our-play-content ul li img{
-	max-width: 175px;
+	max-width: 180px;
 }
 .our-play-content .name{
 	color: #979797;
@@ -158,10 +162,10 @@ body{
 	margin-left: 10px;
 }
 .latest-work-content ul li:first-child {
-	margin-left: 0px;
+	margin-left: 3px;
 }
 .latest-work-content ul li{
-	width: 300px;
+	width: 315px;
 	height: 160px;
 	background: #353535;
 	margin-left: 20px;
@@ -233,5 +237,7 @@ textarea{
 	height: 50px;
 	padding-left: 0px;
 	color: white;
-	
+}
+.our-service-content ul{
+	margin-left:-40px;
 }
