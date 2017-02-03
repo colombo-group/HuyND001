@@ -1,8 +1,8 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	width: 1000px;
-	margin: 0 auto;
+	
+	margin: 0 160px;
 }
 .header{
 	
@@ -24,16 +24,19 @@ body{
 	float: left;
 	margin-left: 140px;
 	margin-top: 20px;
+	margin-bottom: 28px;
 }
 
 .header .menu-header ul{
 	list-style: none;
 }
 .header .menu-header ul li{
+		text-transform: uppercase;
 		display: inline-block;
 		text-decoration: none;
 		width: 100px;
 		height: 50px;
+		font-size: 12px;
 		line-height: 50px;
 		background: #e2494b;
 		margin-left: -5px;
@@ -42,6 +45,10 @@ body{
 .header .menu-header ul li:hover {
 	cursor: pointer;
 	background: #e76a6c;
+	
+}
+.header .menu-header ul li:hover a{
+	color: #ee9395; 
 }
 .header .menu-header ul li:first-child {
 	border-radius: 10px 0px 0 10px;
@@ -53,11 +60,11 @@ body{
 	text-decoration: none;
 	color: white; 
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 12px;
 }
 .header .menu-header ul li a:hover{
 	
-	color: #ee9395; 
+	
 	
 }
 .content-sologan{
@@ -66,6 +73,8 @@ body{
 	margin-right: 140px;
 	text-align: center;
 	font-style: italic;
+	font-size: 19px;
+	padding-bottom: 17px;
 }
 .header .slider{
 	margin: 20px;
@@ -91,6 +100,12 @@ body{
 	width: 6px;
 	height: 6px;
 }
+.border-bottom{
+	
+    width: 1300px;
+    margin-left: -153px;
+	clear:both;border-bottom: 2px solid #f1f1f1;
+}
 .our-service{
 	margin-top: 50px;
 	position: relative;
@@ -106,12 +121,12 @@ body{
 	background: #e2494b;
 	border-radius: 15px;
 	position: absolute;
-	top: -25px;
+	top: -20px;
 	left: 380px;
-	padding-left: 40px;
+	padding-left: 20px;
 }
 .our-service-content ul li{
-	width: 330px;
+	width: 327px;
 	list-style: none;
 	display: inline-block;
 	margin-top: 40px;
@@ -133,6 +148,13 @@ body{
 .content{
 	margin-top: 10px;
 	font-size: 13px;
+
+	color: #999999;
+}
+.news .content_news p{
+margin-left: 15px;
+	font-size: 13px;
+
 	color: #999999;
 }
 .read-more a{
@@ -147,9 +169,9 @@ body{
 	margin-left:-30px !important;
 }
 .our-play-content ul li{
-	width: 190px;
-	margin: 0px;
-	margin-left: 3px;
+	width: 187px;
+margin: 0px;
+margin-left: 5px;
 }
 .our-play-content ul li img{
 	max-width: 180px;
@@ -158,42 +180,53 @@ body{
 	color: #979797;
 }
 .latest-work-title{
-	padding-left: 30px;
+	padding-left: 16px;
 	margin-left: 10px;
 }
 .latest-work-content ul li:first-child {
 	margin-left: 3px;
 }
 .latest-work-content ul li{
-	width: 315px;
+	width: 313px;
 	height: 160px;
 	background: #353535;
 	margin-left: 20px;
 }
 .footer{
 	background: #e2e2e2;
-	width: 1000px;
-	height: 400px;
-	margin-bottom: 50px;
+	width: 1307px;
+	height: 367px;
+	margin-left: -157px !important;
 }
 .news{
 	float: left;
 }
 .news ul li{
 	list-style: none;
-	
 	height: 100px;
-	width: 465px;
+	width: 666px;
+	margin-bottom: 30px;
+}
+.border-news{
+	border: 1px solid #cccccc;
+	width: 95px;
+	height: 95px;
+	float:left;
+	margin-left: 121px;
+	padding: 5px;
+	margin-right: 15px;
 }
 .news .news-img{
 	width: 95px;
 	height: 95px;
 	background: #353535;
-	float: left;
+	/*float: left;*/
 	margin-right: 25px;
+	/*margin-left: 100px;*/
+	
 }
 .blog{
-	margin-left: 40px;
+	margin-left: 160px;
 	padding-top: 25px;
 	font-size: 15px;
 	color: black;
@@ -232,12 +265,35 @@ textarea{
 	height: 100px;outline: none;
 }
 .submit{
-	background: red;
+	background: #e73a3a;
 	width: 100px !important;
-	height: 50px;
-	padding-left: 0px;
+	height: 70px;
+	padding-left: -30px;
 	color: white;
 }
 .our-service-content ul{
 	margin-left:-40px;
+}
+.end .end-left{
+	float: left;
+	color:#999999;
+	font-size: 10px;
+	/*margin-left: 161px;*/
+}
+.end{
+	border-top:1px solid #cccccc;
+	width: 1000px;
+	margin-left: 161px;
+	height: 50px;
+	line-height: 50px;
+}
+.end .end-right{
+	float: right;
+	font-size: 10px;
+	/*margin-right: 161px;*/
+	color:#999999;
+}
+.gt{
+	color:red;
+	font-size: 10px;
 }
