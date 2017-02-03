@@ -264,9 +264,11 @@ margin-left: 5px;
 }
 textarea{
 	height: 100px;outline: none;
+
 	font-size: 11px;
 	padding-left: 15px;
 	padding-top: 10px;
+
 }
 .submit{
 	background: #e73a3a;
@@ -281,7 +283,7 @@ textarea{
 .end .end-left{
 	float: left;
 	color:#999999;
-	font-size: 10px;
+	font-size: 11px;
 	/*margin-left: 161px;*/
 }
 .end{
